@@ -3,3 +3,8 @@
 **/.DS_Store
 **/__pycache__/
 node_modules
+
+dist/
+jamia_all_courses.egg-info/
+jamia_all_courses/__init__.pyc
+venv/

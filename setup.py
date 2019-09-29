@@ -28,6 +28,7 @@ setup(
     ],
     packages=['jamia_all_courses'],
     include_package_data=True,
+    download_url='https://github.com/Faisal-Manzer/jamia-all-courses/archive/Python-v1.0.0.tar.gz',
     entry_points={
     },
 )
