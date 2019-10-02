@@ -43,6 +43,20 @@ undergraduateProgrammes.courses.map(({name: course, specializations}) => {
         })
     })
 ```
+- `getCourse(hash)`: **[category, course, specialization]**
+    - Returns array of 3 with their respective labels
+
+- `getCourseName(hash)`: Returns string of course and specialisation
+
+```js
+import {getCourseName, getCourse} from "jamia-all-courses";
+
+console.log(getCourseName('3fc6d'));
+// B.Tech. Computer Engineering
+
+console.log(getCourse('3fc6d'));
+// ['Undergraduate Programmes', 'B.Tech.','Computer Engineering']
+```
 
 - `getCourse(hash)`: **[category, course, specialization]**
     - Returns array of 3 with their respective labels
