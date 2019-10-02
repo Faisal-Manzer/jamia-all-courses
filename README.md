@@ -38,6 +38,21 @@ for course in undergraduate_programmes['courses']:
 
 ```
 
+- `getCourse(hash)`: **[category, course, specialization]**
+    - Returns array of 3 with their respective labels
+
+- `getCourseName(hash)`: Returns string of course and specialisation
+
+```python
+import get_course, get_course_name from jamia_all_courses
+
+print(get_course_name('3fc6d'))
+# B.Tech. Computer Engineering
+
+print(get_course('3fc6d'))
+# ['Undergraduate Programmes', 'B.Tech.','Computer Engineering']
+```
+
 ## Structure
 ```
 [{

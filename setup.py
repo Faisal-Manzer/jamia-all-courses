@@ -10,7 +10,7 @@ README = (HERE / 'README.md').read_text()
 # This call to setup() does all the work
 setup(
     name='jamia-all-courses',
-    version='1.0.0',
+    version='1.1.0',
     description='A helpers for getting all courses available in Jamia Millia Islamia.',
     long_description=README,
     long_description_content_type='text/markdown',
@@ -28,7 +28,7 @@ setup(
     ],
     packages=['jamia_all_courses'],
     include_package_data=True,
-    download_url='https://github.com/Faisal-Manzer/jamia-all-courses/archive/Python-v1.0.0.tar.gz',
+    download_url='https://github.com/Faisal-Manzer/jamia-all-courses/archive/Python.tar.gz',
     entry_points={
     },
 )

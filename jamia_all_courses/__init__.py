@@ -6,3 +6,17 @@ postgraduate_diploma_programmes = all_courses[2]
 undergraduate_programmes = all_courses[3]
 advanced_diploma_programmes = all_courses[4]
 diploma_programmes = all_courses[5]
+
+
+def get_course(code):
+    for category in all_courses:
+        for course in category['courses']:
+            for specialization in course['specializations']:
+                if code == specialization['code']:
+                    return [category['name'], courses['name'], specialization['name']]
+
+
+def get_course_name(code):
+    _, course, specialization = get_course(code)
+
+    return course + ' ' + specialization
