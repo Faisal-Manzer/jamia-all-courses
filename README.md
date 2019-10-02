@@ -44,6 +44,11 @@ undergraduateProgrammes.courses.map(({name: course, specializations}) => {
     })
 ```
 
+- `getCourse(hash)`: **[category, course, specialization]**
+    - Returns array of 3 with their respective labels
+
+- `getCourseName(hash)`: Returns string of course and specialisation
+
 ## Structure
 ```
 [{
