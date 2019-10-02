@@ -50,7 +50,7 @@ undergraduateProgrammes.courses.map(({name: course, specializations}) => {
 - `getCourseName(hash)`: Returns string of course and specialisation
 
 ```js
-import {getCourseName, getCourse} from "./index";
+import {getCourseName, getCourse} from "jamia-all-courses";
 
 console.log(getCourseName('3fc6d'));
 // B.Tech. Computer Engineering
