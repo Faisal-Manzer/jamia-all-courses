@@ -1,6 +1,6 @@
 {
-  "name": "@Faisal-Manzer/jamia-all-courses",
-  "version": "1.1.0",
+  "name": "@faisal-manzer/jamia-all-courses",
+  "version": "1.2.0",
   "description": "A helpers for getting all courses available in Jamia Millia Islamia.",
   "main": "index.js",
   "repository": "https://github.com/Faisal-Manzer/jamia-all-courses.git",
