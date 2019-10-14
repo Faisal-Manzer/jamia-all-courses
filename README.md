@@ -2,13 +2,24 @@
 This repo contains index of courses available in Jamia Millia Islamia.
 
 ## Programmatic use
-Install node or python package
-```
+[![npm](https://img.shields.io/npm/v/jamia-all-courses?style=for-the-badge)](https://www.npmjs.com/package/jamia-all-courses)
+[![PyPI](https://img.shields.io/pypi/v/jamia-all-courses?style=for-the-badge)](https://pypi.org/project/jamia-all-courses/)
+
+### node.js
+#### Installation
+```shell script
 yarn add jamia-all-courses
+# or
+npm install --save jamia-all-courses
+```
+#### Read the documentation in [node-npmjs branch](https://github.com/Faisal-Manzer/jamia-all-courses/tree/node-npmjs#all-courses-in-jamia)  
+
+### Python
+#### Installation
+```shell script
 pip install jamia-all-courses
 ```
-- Node Documentation in [node-github branch](https://github.com/Faisal-Manzer/jamia-all-courses/tree/node-github#all-courses-in-jamia)  
-- Python Documentation in [python-pypi branch](https://github.com/Faisal-Manzer/jamia-all-courses/tree/python-pypi#all-courses-in-jamia)
+#### Read the documentation in [python-pypi branch](https://github.com/Faisal-Manzer/jamia-all-courses/tree/python-pypi#all-courses-in-jamia)
 
 ## Structure
 ```
